@@ -1,0 +1,59 @@
+# =====================================================================
+# PUBLIC REPOSITORY — NOTHING CONFIDENTIAL MAY BE COMMITTED.
+# Any Intel-internal, proprietary, or secret material belongs ONLY in
+# the ignored folders below. See CONTRIBUTING.md.
+# =====================================================================
+
+# Local-only / confidential material (never published)
+private/
+confidential/
+internal/
+*.intel.*
+*-internal.*
+*-confidential.*
+
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*_rsa
+*_rsa.pub
+*.token
+*secret*
+*credential*
+secrets.*
+credentials.*
+.netrc
+.npmrc
+.pypirc
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build / dependency output
+node_modules/
+dist/
+build/
+_site/
+.cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs & temp
+*.log
+*.tmp
+tmp/
